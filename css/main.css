@@ -1,0 +1,186 @@
+body{
+    background-color: white;
+    transition: all 2s;
+}
+.togglebar{
+    width: 120px;
+    height: 55px;
+    border-radius: 50px;
+    background-image:linear-gradient(to right,aqua,rgb(179, 255, 179));
+    box-shadow: inset 0 8px 60px rgba(0,0,0,0.2),
+                inset 0 8px 8px rgba(0,0,0,0.2),
+                inset 0 -4px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+    animation:zoomIn;
+    animation-duration: 2.2s;
+}
+.togglebar .indicator{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50px;
+    height: 55px;
+    background: white;
+    border-radius: 50%;
+    transform: scale(0.9);
+    box-shadow:  0 8px 40px rgba(143, 143, 143, 0.4),
+                inset 0 4px 8px rgba(143,143,143,0.4),
+                inset 0 -4px 4px rgba(143,143,143,0.4);
+    transition: all 1s;
+    
+}
+header{
+    margin-top: 20px;
+}
+.smode{
+    position: absolute;
+    right: 100%;
+    bottom: 40%;
+    font-size: 12px;
+    font-weight: 700;
+    width: 70px;
+}
+
+.dashboard{
+    background-color: #F0F3FA;
+    transition: all 2s;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 5px;
+    animation: zoomInDown;
+    animation-duration: 2s;
+}
+.home header .container .dash div h2{
+    animation:zoomIn;
+    animation-duration: 2s;
+    transition: all 1s;
+}
+.home header .container .dash div p{
+    animation:zoomIn;
+    animation-duration: 2.5s;
+}
+.fa-square-facebook{
+    color: #188EF8;
+    font-size: 20px;
+}
+.fa-twitter{
+    font-size: 20px;
+    color: #3598D9;
+}
+.fa-instagram{
+    color:#CB5B95; 
+}
+.fa-youtube{
+    color: #C30028;
+    font-size: 20px;
+}
+.followers{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #72757E;
+    font-weight: 700;
+
+}
+header h2{
+    font-weight: 700;
+}
+header p{
+    color: #75757F;
+}
+section h1{
+    margin: 10px 0px;
+    font-weight: 900;
+}
+.today{
+    color: #28A885;
+}
+.today1{
+    color: red;
+}
+.overview{
+    margin-top: 20px;
+    color: #646579;
+}
+.overview .head{
+    animation:zoomIn;
+    animation-duration: 2.5s;
+}
+.doverview{
+    background-color: #F0F3FA;
+    margin: 10px 20px;
+    padding: 10px 5px;
+    transition: all 2s;
+    animation: zoomIn;
+    animation-duration: 2s
+   
+    
+}
+.prt1{
+    margin-bottom: 15px;
+}
+.prt1 span{
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.prt2 {
+    color:#28A885 ;
+    font-weight:700 ;
+    font-size: 12px;
+}
+.prt2 .sp1{
+    color: black;
+    font-size: 28px;
+}
+.dark_body{
+    background-color: #1D2029 ;
+    transition: all 2s;
+}
+.dark_indicator{
+    background: #2C3447 !important;
+    transition: all 1s;
+    position: absolute;
+    left: 48% !important;
+    
+
+
+}
+.head_dark{
+    color: white;
+    transition: all 2s;
+}
+.DIV1_dark{
+    background-color: #252B43;
+    transition: all 2s;
+}
+.num_dark{
+    color: white !important;
+    transition: all 2s;
+}
+@media (max-width:750px) {
+    .head{
+        font-size: 17px;
+    }
+    .smode{
+        font-size: 10px;
+        right: 86%;
+    }
+    .togglebar{
+        width: 80px;
+        height:40px ;
+    }
+    .togglebar .indicator{
+        width: 40px;
+        height: 39px;
+        
+        
+    }
+    .dark_indicator{
+        left: 30px !important;
+    }
+    .border{
+        width: 100% !important;
+    }
+}
